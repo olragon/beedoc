@@ -148,7 +148,7 @@ func main() {
 ```
 Available validation functions in StrucTag:
 
-* `Required` not empty. :TODO 不为空，即各个类型要求不为其零值
+* `Required` not empty. Not `0`, `nil`, `""`
 * `Min(min int)` minimum value. Valid type is `int`, all other types are invalid.
 * `Max(max int)` maximum value. Valid type is `int`, all other types are invalid.
 * `Range(min, max int)` Value range. Valid type is `int`, all other types are invalid.
